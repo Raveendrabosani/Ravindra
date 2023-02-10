@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/43df530aea.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    #ravindra{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .ravi{
+        border:2px solid  red;
+        margin: 10px; 
+    }
+   
+    button{
+        color:white;
+        background-color: red;
+      
+    }
+    #lucky{
+        position: relative;
+        left: 90%;
+    }
+    .raghav{
+        background-color: azure;
+        width: 70%;
+        height:500px;
+        overflow-y: scroll;
+        position: absolute;
+        left:20%;
+        top:-1000px;
+
+    }
+    .raghav.display{
+        top:50px;
+    }
+</style>
+<body>
+     <p id="lucky"><i class="fa-solid fa-cart-shopping"></i></p>
+    <input type="text" id="filter" placeholder="enter filter type" onkeyup="myName()">
+    <div id="ravindra">
+    <div class="ravi">
+        <img src="https://thumbs.dreamstime.com/b/java-logo-vector-design-commercial-brand-trademark-118452997.jpg " height=300px, width=300px>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit mollitia pariatur qui odio eos praesentium quas voluptas recusandae asperiores! Quisquam, odit. Ipsum asperiores quos doloribus corrupti tempora voluptatum tenetur.</p><br>
+        <h3 class="ravan">java</h3>
+
+        <h>$345.89</h><br><br>
+        <button>Add-cart</button>
+    </div>
+    <div class="ravi">
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" height=300px, width=300px>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos ad eveniet est! Impedit perferendis sapiente at quis dolorum sunt ut, eaque sequi quas vero, dolore quasi tenetur eveniet. Earum.</p><br>
+        <h3 class="ravan">javascript</h3>
+        
+        <h>$345.89</h><br><br>
+        <button>Add-cart</button>
+    </div>
+    <div class="ravi">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKNHB92ePWEQU3819p7mfFS23ru7Pmr73MWlw5rKk&s" height=300px, width=300px>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat corrupti numquam commodi vero. Facere est quam expedita reiciendis distinctio accusantium itaque totam. Quam, esse exercitationem voluptate laudantium ab cum!</p><br>
+        <h3 class="ravan">html</h3>
+        
+        <h>$345.89</h><br><br>
+        <button>Add-cart</button>
+    </div>
+    <div class="ravi">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png?20160530175649" height=300px, width=300px>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora mollitia repudiandae repellat blanditiis ut! Exercitationem sint omnis inventore, doloremque ipsam ad nulla? Asperiores minima delectus, accusamus explicabo fuga quasi.</p><br>
+        <h3 class="ravan">css</h3>
+        
+        <h>$345.89</h><br><br>
+        <button>Add-cart</button>
+    </div>
+    <div class="ravi">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX5aoniDS5CvYrastGQbaDYSDB43jgAkXMk7wCGepv&s" height=300px, width=300px>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore iusto nihil, qui fuga, provident similique ratione quod cupiditate veniam tempore excepturi unde nemo, eius molestias itaque optio minima consequatur? ravindra html this project is not easy but understand </p><br>
+        <h3 class="ravan">react js </h3>
+        
+        <h>$345.89</h><br><br>
+        <button>Add-cart</button>
+    </div>
+</div>
+<div class="raghav">
+
+</div>
+<script>
+
+    function myName(){
+        const vision=document.getElementById("filter").value.toUpperCase() 
+        const card=document.getElementsByClassName("ravi")
+        for(let i=0;i<card.length;i++){
+           var title= card[i].querySelector(".ravan")
+           if(title.innerText.toUpperCase().indexOf(vision)>-1){
+            card[i].style.display=""
+           }
+           else{
+            card[i].style.display="none"
+           }
+        }
+    }
+    const btn=document.getElementsByTagName("button")
+    const select=document.querySelector(".raghav")
+    const n=document.getElementById("lucky")
+    for(var b of btn){
+        b.addEventListener("click",(e)=>{
+            var parent=e.target.parentNode;
+            var clone=parent.cloneNode(true)
+            clone.lastElementChild.innerText="book-now"
+            select.appendChild(clone)
+            if(clone){
+                n.onclick=function(){
+                    select.classList.toggle("display")
+                }
+            }
+
+        })
+    }
+
+    </script>
+
+    
+    
+</body>
+</html>
