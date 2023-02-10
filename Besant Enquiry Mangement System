@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/43df530aea.js"></script>
+    
+    <style>
+        #a{ display:grid;
+            grid-template-columns: 40% 40% 20%;
+            color:white;
+        
+    background-color: black;}
+
+#r{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto  auto 10%;
+    background-color:grey;
+    padding:20px;
+    
+}
+ #w{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    bottom: 1200px;
+
+ }
+ 
+ 
+#z{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 50px;
+    position:absolute;
+    left:200px;
+    top:1160px;
+
+}
+#y{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 50px;
+    position:absolute;
+    left:650px;
+    top:1160px;
+}
+#x{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 50px;
+    position:absolute;
+    left:1100px;
+    top:1160px;
+}
+#s{
+    display: grid;
+grid-template-columns: auto auto auto;
+}
+#s1{
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#s2{
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    margin: 2px;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+#s3{
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+#m{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+#m1{
+    
+    background-color: green;
+    padding:5px;
+    margin:2px;
+    color:white;
+    text-align: center;
+}
+#m2{
+    background-color: green;
+    padding:5px;
+    margin:2px;
+    color:white;
+    text-align: center;
+}
+#m3{
+    background-color: green;
+    padding:5px;
+    margin:2px;
+    color:white;
+    text-align: center;
+}
+#n{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#n1{
+    text-align: center;
+   
+   
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+   
+    border: 3px solid black;
+}
+#n2{
+    text-align: center;
+    
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    
+}
+#n3{
+    text-align: center;
+    
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#n4{
+    text-align: center;
+   
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#n5{
+    text-align: center;
+   
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#n6{
+    text-align: center;
+   
+    margin: 10px;   
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#h{
+    display: none;
+    position: absolute;
+    top:500px ;
+    left:30%;
+    border: 3px solid blue;
+    background-color: aqua;
+    border: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+#ravindra{
+    height: 600px;
+    width:100%;
+}
+#bt{
+    position: absolute;
+    left:100px
+}
+span{
+  margin-left:85%;
+ padding-bottom: 10px;
+ padding-right: 10px;
+ padding-left: 10px;
+  background-color: blueviolet;
+  color: red;
+}
+#l{
+    display: none;
+    position: absolute;
+    top:300px;
+    left:70%;
+    border:3px;
+    background-color: yellow;
+    color:red;
+    padding: 50px;
+}
+#cm{
+    position: absolute;
+    right:0%;
+    top:0%;
+    
+    
+}
+#po{
+    display: none;
+
+}
+#op:hover #po{
+    display:block
+    
+    
+}
+#po{
+    color: black;
+    position: absolute;
+    background-color:white;
+    padding: 5px;
+    border: 3px;
+     text-decoration:none ;
+    
+}
+#but {
+    color:white ;
+    background-color: green;
+    
+
+    
+}
+#bt{
+    color:white;
+    background-color: green;
+    padding: 20px;
+    left: 20%;
+}
+#but:hover{
+    color:blue;
+    background-color: rgb(166, 255, 0);
+}
+#bt:hover{
+    color:white;
+    background-color: black;
+
+
+}
+#s1:hover{
+    background-color: white;
+    color:black;
+   position:relative;
+}
+#s2:hover{
+    background-color: white;
+    color:black;
+   position:relative;
+}
+#s3:hover{
+    background-color: white;
+    color:black;
+   position:relative;
+}
+
+    
+    
+
+#main:hover{
+    color: red;
+}
+#colored{
+    color:gold;
+   
+}
+#color1 i{
+    color:gold;
+    
+   
+}
+#color2 i{
+    
+    color:gold;
+    
+   
+}
+#color3{
+    color:gold;
+   
+}
+#color4{
+    color:gold;
+   
+}
+#color5{
+    color:gold;
+    
+}
+#color6{
+    color:gold;
+}
+#rr i{
+    margin-left: 20px;
+
+}
+#sid{
+  background-color:lightblue;
+    display: grid;
+    grid-template-columns:35% 20% 30% 15%;
+    
+}
+#size{
+    font-size: 20px;
+    
+}
+
+
+#rr{
+    text-align: center;
+    margin-top: 20px;
+}
+#sarvanan{
+    position:absolute;
+    top:300px;
+    right: 50%;
+    padding-left: 10%;
+    color:white;
+}
+#rr i{
+    color:white;
+    padding: 3px;
+    border: 5px;
+}
+#req:hover{
+    color: red;
+    background-color: white;
+    width: 50px;
+    padding: 3px;
+    position: relative;
+    
+    
+}
+#react:hover{
+    color: red;
+    
+
+}
+#rest:hover{
+    color: red;
+    
+    
+
+}
+#role b:hover{
+    color:red;
+
+}
+#s1{
+    border: 5px;
+    box-shadow: 3px solid red;
+}
+
+
+#color{
+    background-color: grey;
+    border: 1px solid red;
+    box-shadow: 5px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 25px;
+    margin-right: 80%;
+    
+
+}
+#rakul i{
+    margin-left: 15px;
+    color:black;
+    border: 2px solid green;
+   
+    padding: 5px;
+    background-color: green;
+    border-radius: 3px;
+
+}
+#s1{
+    border: 2px solid lightcoral;
+}
+#s2{
+    border: 2px solid lightcoral;
+}
+#s3{
+    border: 2px solid lightcoral;
+}
+#sp{
+    right: 0%;
+    top:0%;
+}
+#rest a{
+    text-decoration: none;
+    color:black;
+}
+#ff a{
+    text-decoration: none;
+    color:black;
+
+}
+#rest :hover{
+    color:red;
+    
+}
+#ff :hover{
+    color:red;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="size">
+    <h style="color:black; background-color:orangered;padding:5px;margin-bottom: 3px;"> <marquee behavior=alternate direction="right">our best offer ever!!summer special -get 3 course at 22499-only<a href="#">Read More</a></marquee></h>
+    <br>
+     
+   <div id="a">
+    <p id="react">Email:ravindrareddybosani143@gmail.com</p>
+   
+    <p id="react">contact:6281403155</p>
+    <p3 id="rr">
+     <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjLrpzoiO76AhVODisKHRkhAXkYABAAGgJzZg&ohost=www.google.com&cid=CAESaeD2FXSisW84aG7U3l4dl0m2TL0W9_5tBXMxYLLE0adHWd-g4TN7J7Pspx9fdnDu8JYgsKEEHAw43DZ9rEndnCZk-yMS167c0yPTQyvZiNbFVwHMxj4NnUGexxEAEWmgKggkuPBbRWVLEQ&sig=AOD64_2ScK93YyKNnBEbshSZ2J8TsO7wMQ&q&adurl&ved=2ahUKEwjaj5boiO76AhVdUGwGHSZWDX0Q0Qx6BAgIEAE"><i class="fa-brands fa-facebook"></i></a>
+     <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi4_4HSie76AhVIRmwGHc3GDYQQFnoECA0QAQ&url=https%3A%2F%2Ftwitter.com%2Flogin&usg=AOvVaw3swNPrVfKaBGiX8TGfSpkN"><i class="fa-brands fa-twitter"></i></a>
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+     <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+    </p3>
+</div>
+<div id="r">
+    <h id="role" style="color:green ;"><b> besant technology</b></h>
+<h id="req">home</h>
+<h id="req">about</h>
+<div id="op">
+<h id="main">courses</h>
+<div id="po">
+<div><a href="new priject.html">frontend</a></div>
+<div><a href="backend.html">backend</a></div>
+</div>
+</div>
+<h id="rest"><a href="online.html" target="_blank">online training</a></h>
+<h id="ff"><a href="employee main.html" target="_blank">employee details</a></h>
+
+<button id="but" onclick="readMore()">Enquairy</button>
+</div>
+
+
+<form onsubmit="getReady()" id="l">
+    <span id="cm">&times</span>
+    <h2>quick enquiry</h2>
+    <lable>name*</lable>
+    <input type="text" id="my1" required >
+    <br><br>
+    <lable>phone*</lable>
+    <input type="number" id="my2" required >
+    <br><br>
+    <lable>email</lable>
+    <input type="email" id="my3" required>
+    <br><br>
+    <input type="submit" value="IM intersted tell me more ">
+</form>
+
+<img id="ravindra">
+<div id="sarvanan">
+<h2>Besant Technology</h2><br>
+<h>best online & offline classrooms teaching institute</h>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tenetur perferendis amet soluta, totam nostrum omnis. Sint soluta perspiciatis impedit quia sit aspernatur blanditiis earum, odio incidunt laudantium qui aut.this us not good for copying this is very good institute for taking coaching in banglore not more than any institutes</p>
+
+
+
+<button id="bt" onclick="myName()">apply  online</button>
+</div>
+
+<form  onsubmit="valid()" id="h">
+    <span id="sp">&times;</span>
+    <br>
+    <lable>name:</lable>
+    <input type="text" placeholder="enter your name" id="user1" required>
+    <br><br>
+    <label>Email:</label>
+    <input type="email" placeholder="enter your name" id="user2" required>
+    <br><br>
+    <label>password:</label>
+    <input type="password"  id="user3" required>
+    <br><br>
+    <lable>cofirm password</lable>
+    <input type="password"  id="user4">
+    <br><br>
+    <input type="submit" value="register">
+</form>
+ 
+ <h3  style="color: darkmagenta;"align="center">Key features</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi consequuntur, esse voluptates assumenda corrupti voluptatem molestiae eos omnis labore ipsam in eveniet dicta quo ratione sit obcaecati magni provident? Rerum.</p> 
+
+<div id="w">
+    <div id="z"><i class="fa-regular fa-file-word"></i></div>
+    <div id="y"><i class="fa-regular fa-clock"></i></div>
+    <div id="x"><i class="fa-sharp fa-solid fa-house-user"></i></div>
+</div>
+<div id="s">
+
+    <div id="s1">
+        <h3>expert feculity</h3>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem fugit debitis ut, beatae distinctio ipsam.
+    </div>
+  
+<div id="s2">
+    <h3>well equiped labs</h3>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem fugit debitis ut, beatae distinctio ipsam.
+</div>
+
+
+<div id="s3">
+    <h3>quality education</h3>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem fugit debitis ut, beatae distinctio ipsam.
+</div>
+
+</div>
+<h3 text align="center">our courses</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos earum reprehenderit ut assumenda consequuntur! Illum harum aperiam libero, ad expedita distinctio placeat nostrum quia maiores est fugiat atque tempore mollitia?</p>
+
+<div id="m">
+    <div id="m1">full stack development</div>
+    <div id="m2">front end development</div>
+    <div id="m3">backend development</div>
+</div>
+
+<div id="n">
+    <div id="n1">
+        <div id="navi">     
+            <h2>cras ultrics lacus consectetetur,
+                consectetetur</h2>
+                <div id="colored">
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+    </div>
+    <br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+        <br>
+        <button style="background-color:green ;color:bisque;">apply online</button>  
+    </div>    
+    </div>
+    
+    <div id="n2">
+        <h2>cras ultrics lacus consectetetur,
+            consectetetur</h2>
+        <div id="color1">
+            
+            <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </i><br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+        <br>
+        <button style="background-color:green ;color:bisque; text-align: center;">apply online</button>
+        </div>
+        
+    <div id="n3">
+        <h2>cras ultrics lacus consectetetur,
+        consectetetur</h2>
+        <div id="color2">
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div></i><br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+        <br>
+        <button style="background-color:green ;color:bisque;">apply online</button>
+        </div>
+        
+    <div id="n4">
+        <h2>cras ultrics lacus consectetetur,
+        consectetetur</h2>
+        <div id="color3">
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></div><br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+        <br>
+        <button style="background-color:green ;color:bisque;">apply online</button>
+    </div>
+    <div id="n5">
+        <h2>cras ultrics lacus consectetetur,
+        consectetetur</h2>
+        <div id="color4">
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></div><br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+        <br>
+        <button style="background-color:green ;color:bisque;">apply online</button>
+    </div>
+    <div id="n6">
+        <h2>cras ultrics lacus consectetetur,
+        consectetetur</h2>
+        <div id="color6">
+        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div><br><br>
+           lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate incidunt maiores suscipit minus nemo, culpa ad eaque. Molestias maxime, nostrum perspiciatis, nulla porro atque nisi consequuntur repudiandae autem natus saepe?
+           <br>
+        <button style="background-color:green ;color:bisque;">apply online</button>
+    </div>
+</div>
+<div id="sid">
+<div>    <h2>Besant Technology</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere recusandae et expedita eum cupiditate perspiciatis esse vitae nobis, delectus totam libero vero maxime. Laborum vero quidem fuga, eum ad doloribus debitis minima! Dolor explicabo placeat maxime fuga iusto non laborum nemo corrupti dolores quisquam? Obcaecati recusandae adipisci dolor dolores saepe?</p></div>
+<div><h2>our services</h2>
+    <p>
+    <p>mobile application</p>
+    <p>>web application</p>
+    <p>websites design</p>
+    <p>web user interface</p>
+    <p>web ux designp</p> 
+    <p>themes development design</p></div>
+<div><h2>Head office</h2>
+    <p>1/2 marathahalli,bangaluru,karnatak-560037,<br>
+    phone:+91 6281403155<br>
+    Email:ravindrareddybosani143@gmail.com</p>
+    <p><b>office time:</b>10AM-6PM</p></div>
+<div><h2>Subscribe us</h2>
+    <input type="text" placeholder="enter email address"><br><br>
+    <div id="rakul">
+    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-linkedin"></i></div>
+</div>
+</div>
+    </div>
+<script>
+    function valid(){
+    const a1=document.getElementById("user1").value
+    const a2=document.getElementById("user2").value
+    const a3=document.getElementById("user3").value
+    const a4=document.getElementById("user4").value
+    
+        if(a1.length>6){
+            alert("name must be written less than six characters")
+        }
+        else if(a3!==a4){
+            alert("password is not matched")
+
+        }
+        else{
+            alert("form successfully completed")
+        }
+    }
+    const button=document.getElementById("bt")
+    const ft=document.getElementById("h")
+    function myName(){
+        ft.style.display="block"
+    }
+    var i=0
+    var images=["https://images.pexels.com/photos/1236421/pexels-photo-1236421.jpeg?auto=compress&cs=tinysrgb&w=600","https://images.pexels.com/photos/1617610/pexels-photo-1617610.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load","https://images.pexels.com/photos/1595392/pexels-photo-1595392.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load","https://images.pexels.com/photos/1595388/pexels-photo-1595388.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
+    function changeImage(){
+        document.getElementById("ravindra").src=images[i]
+        if(i<images.length-1){
+            i++
+        }
+       else{
+        i=1
+       }
+
+       setTimeout("changeImage()",2000)
+
+    }
+    window.onload=changeImage
+    const close=document.getElementById("sp")
+    close.onclick=function(){
+        ft.style.display="none"
+    }
+    function getReady(){
+    const b1=document .getElementById("my1").value
+    const b2=document.getElementById("my2").value
+    const b3=document.getElementById("my3").value
+    
+        if(b1.length>10)
+        alert("name must be define below ten characters")
+        else{
+            alert("form successfully completed")
+        }
+    }
+    const buffer=document.getElementById("but")
+    const buffer2=document.getElementById("l")
+    function readMore(){
+        buffer2.style.display="block"
+
+    }
+    const close1=document.getElementById("cm")
+    close1.onclick=function(){
+        buffer2.style.display="none"
+    }
+</script>  
+</body>
+</html>
